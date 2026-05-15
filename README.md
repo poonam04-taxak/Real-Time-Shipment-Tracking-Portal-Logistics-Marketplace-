@@ -1,17 +1,17 @@
-Real-Time Shipment Tracking Portal & Logistics Marketplace
+## Real-Time Shipment Tracking Portal & Logistics Marketplace:
 
 A scalable backend system built using Java and Spring Boot that enables shippers to post freight loads, carriers to place bids, and customers to track shipments in real time.
 
 This project simulates a modern logistics marketplace platform with secure authentication, shipment bidding workflows, and live shipment tracking architecture.
 
-Features
+## Features:
 Authentication & Authorization
 User Registration and Login
 JWT-based Authentication
 Role-based Access Control
 Secure Password Encryption using BCrypt
 
-Supported Roles:
+# Supported Roles:
 
 SHIPPER
 CARRIER
@@ -22,7 +22,7 @@ View Available Shipments
 Shipment Status Tracking
 Shipment Lifecycle Management
 
-Shipment Status:
+## Shipment Status:
 
 BIDDING
 AWAITING_PICKUP
@@ -34,7 +34,7 @@ Shippers can accept or reject bids
 Automatic shipment assignment workflow
 Transaction-safe bid handling
 
-Bid Status:
+## Bid Status:
 
 PENDING
 ACCEPTED
@@ -73,7 +73,7 @@ User
 
 Stores platform users and roles.
 
-Fields:
+## Fields:
 
 id
 name
@@ -84,7 +84,7 @@ Shipment
 
 Stores shipment details created by shippers.
 
-Fields:
+## Fields:
 
 id
 origin
@@ -108,7 +108,7 @@ Authentication APIs
 Register User
 POST /api/auth/register
 
-Request Body:
+## Request Body:
 
 {
   "name": "Poonam",
@@ -119,14 +119,14 @@ Request Body:
 Login User
 POST /api/auth/login
 
-Request Body:
+## Request Body:
 
 {
   "email": "poonam@gmail.com",
   "password": "password123"
 }
 
-Response:
+## Response:
 
 {
   "token": "jwt_token"
@@ -142,7 +142,7 @@ Clone Repository
 git clone <repository-url>
 Configure PostgreSQL
 
-Update application.properties
+## Update application.properties
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/logistics_db
 spring.datasource.username=postgres
@@ -153,7 +153,7 @@ spring.jpa.show-sql=true
 Run Application
 mvn spring-boot:run
 
-Application runs on:
+# Application runs on:
 
 http://localhost:8080
 Future Enhancements
@@ -167,7 +167,7 @@ Notification System
 Deployment on AWS
 Learning Outcomes
 
-This project demonstrates:
+## This project demonstrates:
 
 Spring Boot Backend Development
 JWT Authentication
@@ -177,5 +177,6 @@ Role-Based Security
 Transaction Management
 Clean Architecture Practices
 Enterprise Backend Development Concepts
-Author
+
+### Author
 Poonam Taxak
