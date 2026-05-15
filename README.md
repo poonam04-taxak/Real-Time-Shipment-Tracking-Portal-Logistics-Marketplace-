@@ -5,11 +5,11 @@ A scalable backend system built using Java and Spring Boot that enables shippers
 This project simulates a modern logistics marketplace platform with secure authentication, shipment bidding workflows, and live shipment tracking architecture.
 
 ## Features:
-Authentication & Authorization
-User Registration and Login
-JWT-based Authentication
-Role-based Access Control
-Secure Password Encryption using BCrypt
+- Authentication & Authorization
+- User Registration and Login
+- JWT-based Authentication
+- Role-based Access Control
+- Secure Password Encryption using BCrypt
 
 # Supported Roles:
 SHIPPER
