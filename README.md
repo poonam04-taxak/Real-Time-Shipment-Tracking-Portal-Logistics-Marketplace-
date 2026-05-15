@@ -12,52 +12,52 @@ This project simulates a modern logistics marketplace platform with secure authe
 - Secure Password Encryption using BCrypt
 
 # Supported Roles:
-SHIPPER
-CARRIER
-CUSTOMER
-Shipment Management
-Create Shipment Loads
-View Available Shipments
-Shipment Status Tracking
-Shipment Lifecycle Management
+- SHIPPER
+- CARRIER
+- CUSTOMER
+- Shipment Management
+- Create Shipment Loads
+- View Available Shipments
+- Shipment Status Tracking
+- Shipment Lifecycle Management
 
 ## Shipment Status:
 
-BIDDING
-AWAITING_PICKUP
-IN_TRANSIT
-DELIVERED
-Bidding System
-Carriers can place bids on shipments
-Shippers can accept or reject bids
-Automatic shipment assignment workflow
-Transaction-safe bid handling
+- BIDDING
+- AWAITING_PICKUP
+- IN_TRANSIT
+- DELIVERED
+- Bidding System
+- Carriers can place bids on shipments
+- Shippers can accept or reject bids
+- Automatic shipment assignment workflow
+- Transaction-safe bid handling
 
 ## Bid Status:
 
-PENDING
-ACCEPTED
-REJECTED
-Backend Architecture
-RESTful APIs using Spring Boot
-Layered Architecture
-Spring Data JPA with PostgreSQL
-JWT Security
-Exception Handling
-Clean package structure
-Tech Stack
-Technology	Usage
-Java 17	Backend Development
-Spring Boot	REST API Framework
-Spring Security	Authentication & Authorization
-JWT	Secure Token Authentication
-Spring Data JPA	ORM & Database Operations
-PostgreSQL	Relational Database
-Maven	Dependency Management
-Lombok	Boilerplate Reduction
-Postman	API Testing
-Project Structure
-src/main/java/com/project
+- PENDING
+- ACCEPTED
+- REJECTED
+- Backend Architecture
+- RESTful APIs using Spring Boot
+- Layered Architecture
+- Spring Data JPA with PostgreSQL
+- JWT Security
+- Exception Handling
+- Clean package structure
+- Tech Stack
+- Technology	Usage
+- Java 17	Backend Development
+- Spring Boot	REST API Framework
+- Spring Security	Authentication & Authorization
+- JWT	Secure Token Authentication
+- Spring Data JPA	ORM & Database Operations
+- PostgreSQL	Relational Database
+- Maven	Dependency Management
+- Lombok	Boilerplate Reduction
+- Postman	API Testing
+- Project Structure
+- src/main/java/com/project
 │
 ├── controller
 ├── service
