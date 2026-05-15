@@ -12,7 +12,6 @@ Role-based Access Control
 Secure Password Encryption using BCrypt
 
 # Supported Roles:
-
 SHIPPER
 CARRIER
 CUSTOMER
